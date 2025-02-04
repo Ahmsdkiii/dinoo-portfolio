@@ -17,7 +17,7 @@ const about = {
   info: [
     {
       fielName: "Name",
-      fielValue: "Ahmad Sidqi",
+      fielValue: "Dwi Rahmat Dino",
     },
     {
       fielName: "Phone",
@@ -300,7 +300,7 @@ const Resume = () => {
                         <TooltipProvider delayDuration={100}>
                           <Tooltip>
                             <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group">
-                              <div className="text-6xl group-hover:text-accent transition-all duration-300">
+                              <div className="text-6xl transition-all duration-300 group-hover:text-accent">
                                 {skill.icon}
                               </div>
                             </TooltipTrigger>
@@ -331,7 +331,7 @@ const Resume = () => {
                     return (
                       <li
                         key={index}
-                        className="flex items-center justify-center xl:justify-start gap-4"
+                        className="flex items-center justify-center gap-4 xl:justify-start"
                       >
                         <span className="text-white/60">{item.fielName}</span>
                         <span className="text-lg">{item.fielValue}</span>
