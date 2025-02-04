@@ -23,7 +23,7 @@ const Photo = () => {
         >
           {/* image */}
           <Image
-            src="/assets/Dino.png"
+            src="/assets/image.png"
             priority
             quality={100}
             fill
