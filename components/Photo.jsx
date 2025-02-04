@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Photo = () => {
   return (
-    <div className="w-full h-full relative">
+    <div className="relative w-full h-full">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{
@@ -23,7 +23,7 @@ const Photo = () => {
         >
           {/* image */}
           <Image
-            src="/assets/sidqi.png"
+            src="/assets/Dino.png"
             priority
             quality={100}
             fill
@@ -52,11 +52,11 @@ const Photo = () => {
               strokeDasharray: ["15 120 25 25", "16 25 92 72", "4 250 22 22"],
               rotate: [120, 360],
             }}
-            transition={{ 
+            transition={{
               duration: 20,
               repeat: Infinity,
-              repeatType: "reverse"
-             }}
+              repeatType: "reverse",
+            }}
           />
         </motion.svg>
       </motion.div>
